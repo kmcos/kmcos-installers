@@ -7,6 +7,7 @@ echo "dependency within the APT system"
 cd ~
 mkdir kmcosInstallation
 cd kmcosInstallation
+sudo apt-get update
 sudo apt-get install gfortran
 sudo apt-get install git
 sudo apt-get install python3
