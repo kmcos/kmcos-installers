@@ -16,6 +16,7 @@ pip3 install wheel  #--user
 git clone http://www.github.com/kmcos/kmcos
 cd kmcos
 echo "Entering the kmcos directory to install kmcos."
+pip3 install -r requirements.txt #--user
 python3 setup.py install #--user
 echo "Now doing the pip3 command."
 pip3 install kmcos[MINIMAL] --upgrade #--user
