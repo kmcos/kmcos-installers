@@ -22,7 +22,7 @@ echo "Now doing the pip3 command."
 pip3 install kmcos[MINIMAL] --upgrade #--user
 echo "Now going to examples."
 cd examples
-python3 MyFirstSnapshots.py
+python3 MyFirstSnapshots__build.py
 kmcos export MyFirstSnapshots.xml
 cd MyFirstSnapshots_local_smart
 kmcos benchmark
