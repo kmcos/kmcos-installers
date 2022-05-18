@@ -23,9 +23,9 @@ pip3 install kmcos[MINIMAL] --upgrade #--user
 echo "Now going to examples."
 cd examples
 python3 MyFirstSnapshots__build.py
-kmcos export MyFirstSnapshots.xml
+
 cd MyFirstSnapshots_local_smart
-kmcos benchmark
+python3 kmc_settings.py benchmark
 echo "if you see a printed line showing a certain number of steps/s, ten the benchmark test worked and your kmcos installation is complete!"
 cd ..
 cd ..
