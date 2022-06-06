@@ -25,7 +25,7 @@ cd examples
 python3 MyFirstSnapshots__build.py
 cd MyFirstSnapshots_local_smart
 python3 kmc_settings.py benchmark
-echo "if you see a printed line showing a certain number of steps/s, ten the benchmark test worked and your kmcos installation is complete!"
+echo "if you see a printed line showing a certain number of steps/s, then the benchmark test worked and your kmcos installation is complete!"
 cd ..
 cd ..
 cd ..
