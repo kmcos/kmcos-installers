@@ -19,3 +19,6 @@ pip3 install pygobject #pycairo 1.21.0 with PyGobject of 3.42.2 is known to work
 echo "Installing Tkinter"
 sudo apt-get install python3-tk
 #rm sudo-kmcos-install-dependencies-ubuntu.bash
+
+echo "Installing GooCanvas"
+sudo apt-get install gir1.2-goocanvas-2.0

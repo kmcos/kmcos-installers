@@ -49,3 +49,6 @@ pip3 install pygobject==3.30
 echo "Installing Tkinter"
 sudo apt-get install python3-tk
 #rm sudo-kmcos-install-dependencies-ubuntu.bash
+
+echo "Installing GooCanvas"
+sudo apt-get install gir1.2-goocanvas-2.0
